@@ -1,8 +1,7 @@
-import firebase from 'firebase'
 import admin from 'firebase-admin';
 import 'firebase/auth'
 
-const serviceAccount = require("../../../../key/covinfo-cdf17-firebase-adminsdk-oueyv-ff29c8f456.json");
+const serviceAccount = require("../../../key/covinfo-cdf17-firebase-adminsdk-oueyv-ff29c8f456.json");
 
 // const firebaseConfig = {
 // 	apiKey: "AIzaSyD9rjalcSyKkAALieIhV0Qeb2Uyo1eiG3c",
